@@ -1,0 +1,21 @@
+body,html{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+body{
+    background-color: #585858;
+    background-size: cover;
+    font-family: 'Cabin Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    svg{
+        font-weight: bold;
+        max-width: 100%;
+        height: auto;
+}

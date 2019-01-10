@@ -1,0 +1,157 @@
+<html>
+<head>
+     <title>Pictures</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="paralax style.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", apple symbols;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2 {
+  position: relative;
+  opacity: 0.8;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("img2.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-2 {
+  background-image: url("img1.jpeg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color:#000;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+ @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, {
+        background-attachment: scroll;
+    }
+}
+    img {
+        border: 2px solid black;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: 50%;
+        padding: 5px;
+    }
+</style>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #777;
+}
+</style>
+</head>
+<body> 
+
+<ul>
+<li><a href="Paralax%20Efect%20index.html">Home</a></li>
+<li><a href="about%20index.html">About us</a></li>
+<li><a class="active" href="picture%20index.html">Pictures</a></li>
+<li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwjX26-V5fjbAhXMyaYKHST4AvkQFggoMAA&url=https%3A%2F%2Fwww.gds1.de%2F&usg=AOvVaw2aGpkHErwCndYGy5hV9vO4">GDS 1</a></li>
+<li><a href="feedback index.html">Feedback</a></li>
+</ul>
+
+<div class="bgimg-1">
+<div class="caption">
+<span class="border">Pictures</span>
+</div>
+</div>
+
+    <div id="main">
+    
+        <div>
+        <img src="Pictures/Fruit.PNG">
+        </div>
+        <div>
+        <img src="Pictures/Ghosts.PNG">
+        </div>
+        <div>
+        <img src="Pictures/HowTo.PNG">
+        </div>
+        <div>
+        <img src="Pictures/Menu%20Big%20Pacman.PNG">
+        </div>
+        <div>
+        <img src="Pictures/Pause%20Big%20Pacman.PNG">
+        </div>
+        <div>
+        <img src="Pictures/Start.PNG">
+        </div>
+    
+    </div>
+
+<div class="bgimg-2">
+<div class="caption">
+<span class="border" style="background-color:transparent;font-size:25px;color: #282E34;"></span>
+</div>
+</div>
+
+
+</body>
+<div style="position:relative;color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align:center;">
+    </div>
+    <div id="footer">
+        <font face="apple symbols" color=#777 size="4" width="100%" float= bottom>Copyright &copy; 2018 GokiGulmez </font>
+    </div>              
+</html>
