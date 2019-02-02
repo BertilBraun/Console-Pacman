@@ -1,7 +1,7 @@
 
 #include "PacMan.h"
 
-PacMan::PacMan(ConsoleGameEngine* c, float x, float y) : Entity(c, L"pacman/pacman", x, y) {
+PacMan::PacMan(ConsoleGameEngine* c, float x, float y) : Entity(c, L"pacman", x, y) {
 	dir = UP;
 	//ROUND PACMAN USED IF THE DIRECTION IS NONE
 	IdleSprite = new Sprite(L"res/pacman/pacmanRound.spr");
